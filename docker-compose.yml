@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app-v1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app-v1
+    ports:
+      - "3000:3000"
+    environment:
+      - APP_VERSION=V1
+
+  app-v2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app-v2
+    ports:
+      - "3001:3000"
+    environment:
+      - APP_VERSION=V2
