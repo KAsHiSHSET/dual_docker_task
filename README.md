@@ -1,6 +1,6 @@
-# 🐳 PM2 + Docker: Running Two Node.js Apps Simultaneously
+# 🐳 PM2 + Docker
 
-This project demonstrates how to run two separate Node.js apps in parallel using **Docker**, **Docker Compose**, and **PM2** as the process manager inside each container. It also supports safe updates to one app without affecting the other.
+This task demonstrates how to run two separate Node.js apps in parallel using **Docker**, **Docker Compose**, and **PM2** as the process manager inside each container. It also supports safe updates to one app without affecting the other.
 
 ---
 
